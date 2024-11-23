@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background: #6c5ce7;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 4px solid #4e3d91;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.github-link {
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.github-link:hover {
+    background-color: #f50057;
+}
+
+/* Section Styling */
+section {
+    padding: 3rem 0;
+    background: white;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6c5ce7;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+section p, section ul, section ol {
+    text-align: center;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+/* Features Section */
+.features ul {
+    list-style: square;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+}
+
+/* Technologies Section */
+.technologies .tech-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.technologies .tech-icons span {
+    background-color: #e1bee7;
+    color: #6c5ce7;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Installation Section */
+.installation ol {
+    list-style-type: decimal;
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.installation li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #6c5ce7;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
